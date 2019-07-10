@@ -3,7 +3,13 @@ export const usersJSON = [{
     "points": 3123,
     "name": "Marlana J. Huff",
     "age": 41
-  },
+},
+    {
+        "rank": 1,
+        "points": 754000,
+        "name": "Montel J. Branch",
+        "age": 29
+    },
   {
     "rank": 10,
     "points": 45345,
