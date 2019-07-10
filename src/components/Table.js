@@ -10,10 +10,9 @@ export default class Table extends Component {
 	}
 
     componentWillReceiveProps(nextProps) {
-        console.log("nextProps")
+
         const user2 = this.state.users;
         if (nextProps.sortBy === 'age') {
-            console.log('Hey!, Sorting by Age')
             user2.sort(this.compareByAge);
         } else
             if (nextProps.sortBy === 'name') {
@@ -85,7 +84,6 @@ export default class Table extends Component {
                         <th>Rank</th>
                     </tr>
                 </thead>
-                <tbody></tbody>
                 <tbody>
 
                     {users.map((row, index) => (
